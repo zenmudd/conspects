@@ -29,3 +29,13 @@ git checkout -- flie.rb
 
 git rm --cached file.rb
 // to untrack the file.txt
+
+git remote add repo_branch_name https://github.com/zenmudd/conspects
+// add a remote url to the repository
+
+git clone https://github.com/zenmudd/coursera
+// update you current repo folder with files from https://github.com/zenmudd/coursera repository
+
+git push branch_name master
+// pushes the commited changes to branch_name 
+!! be carefull to untrack or manualy delete all unnecessary files, as it may not be possible via console
