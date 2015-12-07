@@ -1,0 +1,28 @@
+git config --global user.name "user name"
+// set the user name
+
+git config --global user.email "some@thing.here"
+// set user email
+
+git init
+// initialize current dir as repository
+
+git pull https://github.com/some-repo
+// get the copy of a repository to my folder
+
+git add filename.rb
+// adds a file to be commited
+
+!!! do it again and only then commit
+
+git commit -m "some commit msg here"
+// adds a commit to a repo
+
+git diff somefile.br
+// shows the difference between previous commit and current situation
+
+git revert file.rb
+// reverts the file.rb to previous commit
+
+git checkout -- flie.rb
+// you deleted file.rb, and this command will get it back from previous commit version
