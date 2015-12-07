@@ -26,3 +26,6 @@ git revert file.rb
 
 git checkout -- flie.rb
 // you deleted file.rb, and this command will get it back from previous commit version
+
+git rm --cached file.rb
+// to untrack the file.txt
