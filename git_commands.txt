@@ -1,41 +1,52 @@
 git config --global user.name "user name"
-// set the user name
+# set the user name
 
 git config --global user.email "some@thing.here"
-// set user email
+# set user email
 
 git init
-// initialize current dir as repository
+# initialize current dir as repository
 
 git pull https://github.com/some-repo
-// get the copy of a repository to my folder
+# get the copy of a repository to my folder
 
 git add filename.rb
-// adds a file to be commited
-
-!!! do it again and only then commit
+# adds a file to be commited
+# do it again and only then commit
 
 git commit -m "some commit msg here"
-// adds a commit to a repo
+# adds a commit to a repo
 
 git diff somefile.br
-// shows the difference between previous commit and current situation
+# shows the difference between previous commit and current situation
 
 git revert file.rb
-// reverts the file.rb to previous commit
+# reverts the file.rb to previous commit
 
 git checkout -- flie.rb
-// you deleted file.rb, and this command will get it back from previous commit version
+# you deleted file.rb, and this command will get it back from previous commit version
 
 git rm --cached file.rb
-// to untrack the file.txt
+# to untrack the file.txt
 
 git remote add repo_branch_name https://github.com/zenmudd/conspects
-// add a remote url to the repository
+# add a remote url to the repository
 
 git clone https://github.com/zenmudd/coursera
-// update you current repo folder with files from https://github.com/zenmudd/coursera repository
+# update you current repo folder with files from https://github.com/zenmudd/coursera repository
 
 git push branch_name master
-// pushes the commited changes to branch_name 
-!! be carefull to untrack or manualy delete all unnecessary files, as it may not be possible via console
+# pushes the commited changes to branch_name 
+# be carefull to untrack or manualy delete all unnecessary files, as it may not be possible via console
+
+git reset --hard HEAD~1
+#удаление последних внесений на репозиторий
+
+git reset --hard HEAD
+#удаление ВСЕХ изменений на репозиторий
+
+git log
+#просмотр коммитов и их id
+
+git reset --hard <commit-id>
+#удаление коммита по id
