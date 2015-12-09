@@ -1,10 +1,13 @@
 			# general
+
+# 'false' and 'nil' are false, everuthing else is true 
+
 a = true
 puts "#a eaquals #{a[0]}"
 
 			# flow of control
 
-	#if
+	## if
 
 ##
 if a == true then puts "it works"
@@ -49,3 +52,32 @@ a *= 2 while a < 100
 unless a == 6
 	puts "a is not six"	
 end
+
+		## case
+
+##
+case name
+	when "Kurdt" then puts 27
+	when "Sergio" then puts "Pasta"
+end
+
+##
+case 
+	when a == true
+		puts "a is true"
+	when a == false
+		puts "a is false"
+	else 
+		puts "go to bad"		
+end
+
+
+
+
+
+
+
+
+
+
+
