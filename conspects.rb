@@ -1,9 +1,12 @@
 			# general
 
 # 'false' and 'nil' are false, everuthing else is true 
+# ruby operators:
+# http://www.tutorialspoint.com/ruby/ruby_operators.htm
 
 a = true
 puts "#a eaquals #{a[0]}"
+
 
 			# flow of control
 
