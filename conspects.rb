@@ -1,8 +1,10 @@
-			#Flow of control
+			# general
+a = true
+puts "#a eaquals #{a[0]}"
+
+			# flow of control
 
 	#if
-a = true
-
 if a == true then puts "it works"
 
 ##
@@ -20,3 +22,8 @@ else
 	puts "a is not true or false"
 end
 
+	# until
+until a == 6
+	puts "a equals #{a}"
+	a += 1	
+end
