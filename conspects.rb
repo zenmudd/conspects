@@ -5,7 +5,12 @@ puts "#a eaquals #{a[0]}"
 			# flow of control
 
 	#if
+
+##
 if a == true then puts "it works"
+
+##
+puts "One liner" if a == 5 and b ==0
 
 ##
 if a == true
