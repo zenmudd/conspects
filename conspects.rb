@@ -34,10 +34,15 @@ until a == 6
 end
 
 	# while
+
+##
 while a > 9
 	puts a
 	a -=1	
 end
+
+##
+a *= 2 while a < 100
 
 	# unless
 	# will execute commands unles the case when codition is true
