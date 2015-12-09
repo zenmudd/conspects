@@ -27,3 +27,15 @@ until a == 6
 	puts "a equals #{a}"
 	a += 1	
 end
+
+	# while
+while a > 9
+	puts a
+	a -=1	
+end
+
+	# unless
+	# will execute commands unles the case when codition is true
+unless a == 6
+	puts "a is not six"	
+end
