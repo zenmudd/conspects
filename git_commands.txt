@@ -32,6 +32,9 @@ git rm --cached file.rb
 git remote add repo_branch_name https://github.com/zenmudd/conspects
 # add a remote url to the repository
 
+git remote -v
+# see branches
+
 git clone https://github.com/zenmudd/coursera
 # update you current repo folder with files from https://github.com/zenmudd/coursera repository
 
