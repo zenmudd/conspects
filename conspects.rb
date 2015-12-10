@@ -84,3 +84,32 @@ end
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			# Smples
+
+##
+p arr.select { |element| element % 3 == 0 }.reject { |element| element < 5000}.sort.reverse
+
+
+
+
+
+
+
+
+
